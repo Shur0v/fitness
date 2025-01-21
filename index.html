@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Weight Loss Fitness Program</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5', // Indigo-600
+                        secondary: '#818CF8', // Indigo-400
+                        accent: '#F3F4F6', // Gray-100
+                        header: '#1F2937', // Gray-800
+                        tableHeader: '#4338CA', // Indigo-700
+                        buttonPrimary: '#6366F1', // Indigo-500
+                        buttonPrimaryHover: '#4F46E5', // Indigo-600
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['Georgia', 'Cambria', 'serif'],
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl font-extrabold text-primary mb-4">Intermediate Weight Loss Fitness Program</h1>
+            <p class="text-lg text-gray-600">A comprehensive plan combining strength training, cardio, and HIIT for effective weight loss.</p>
+        </header>
+        
+        <!-- Weekly Workout Schedule Table -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-semibold text-header mb-6">1. Weekly Workout Schedule</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+                    <thead class="bg-tableHeader text-white">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Day</th>
+                            <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Workout Type</th>
+                            <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Exercises / Format</th>
+                            <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Sets & Reps / Duration</th>
+                            <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Notes / Intensity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Monday -->
+                        <tr class="border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Monday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Full-Body Strength</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Squats (Barbell or Goblet)</div>
+                                <div>- Bench Press (or Push-Ups)</div>
+                                <div>- Bent-Over Row (or Band Row)</div>
+                                <div>- Shoulder Press (or Pike Push-Ups)</div>
+                                <div>- Plank (forearm or high plank)</div>
+                            </td>
+                            <td class="px-6 py-4">3–4 sets x 8–12 reps<br>Plank: 3 sets x 30–60s</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Warm up 5–10 mins (dynamic stretches, light cardio)</div>
+                                <div>- Focus on progressive overload</div>
+                            </td>
+                        </tr>
+                        <!-- Tuesday -->
+                        <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Tuesday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Cardio</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>Choose steady-state for 30–45 min:</div>
+                                <div>- Treadmill / Elliptical / Stationary Bike</div>
+                                <div>- Outdoor Jog / Brisk Walk</div>
+                                <div>- Jump Rope Intervals (40s on, 20s off)</div>
+                            </td>
+                            <td class="px-6 py-4">30–45 min at moderate intensity</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Maintain 60–70% max HR</div>
+                                <div>- Can hold a conversation but still challenging</div>
+                            </td>
+                        </tr>
+                        <!-- Wednesday -->
+                        <tr class="border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Wednesday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">HIIT</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div><strong>Warm-Up (5 min)</strong>: light jog, dynamic stretches</div>
+                                <div><strong>Main Intervals (20s on, 40s off), 4–6 rounds each:</strong></div>
+                                <div>1. Sprint / High-Knee Run</div>
+                                <div>2. Burpees</div>
+                                <div>3. Mountain Climbers</div>
+                                <div>4. Jump Squats</div>
+                            </td>
+                            <td class="px-6 py-4">4–6 total rounds (about 20 min total)</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Push to near-max effort in work intervals</div>
+                                <div>- Cool down 5 min</div>
+                            </td>
+                        </tr>
+                        <!-- Thursday -->
+                        <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Thursday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Upper Body Strength</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Bench Press or Push-Ups</div>
+                                <div>- Bent-Over Row or Seated Row</div>
+                                <div>- Shoulder Press (dumbbells or barbell)</div>
+                                <div>- Lat Pull-Down or Pull-Ups (assisted if needed)</div>
+                                <div>- Bicep Curls / Hammer Curls</div>
+                                <div>- Triceps Dips / Push-Down</div>
+                            </td>
+                            <td class="px-6 py-4">
+                                3–4 sets x 8–12 reps<br>
+                                Arms: 2–3 sets x 10–15 reps
+                            </td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Include 1–2 core exercises (planks, side planks)</div>
+                                <div>- Focus on form and full range of motion</div>
+                            </td>
+                        </tr>
+                        <!-- Friday -->
+                        <tr class="border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Friday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Cardio / Short HIIT</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div><strong>Option A: Steady-State Cardio (30 min)</strong></div>
+                                <div><strong>Option B: HIIT (15–20 min)</strong></div>
+                                <div>- Sprint intervals: 15s on, 45s off, 6–8 rounds</div>
+                                <div>- Bike sprints: 20s all-out, 40s easy pedal, 6–8 rounds</div>
+                            </td>
+                            <td class="px-6 py-4">
+                                30 min (moderate cardio) or<br>
+                                15–20 min (HIIT)
+                            </td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Choose based on preference and recovery</div>
+                                <div>- Keep HIIT short but intense</div>
+                            </td>
+                        </tr>
+                        <!-- Saturday -->
+                        <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Saturday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Lower Body Strength</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Deadlifts (Barbell or Single-Leg with Dumbbells)</div>
+                                <div>- Lunges (Forward / Walking)</div>
+                                <div>- Glute Bridge / Hip Thrust (weighted if possible)</div>
+                                <div>- Calf Raises</div>
+                                <div>- Bicycle Crunches or Leg Raises</div>
+                            </td>
+                            <td class="px-6 py-4">
+                                3–4 sets x 8–12 reps<br>
+                                Calf raises: 2–3 sets x 12–15 reps
+                            </td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Warm up hips and legs (leg swings, light squats)</div>
+                                <div>- Emphasize proper form to protect lower back</div>
+                            </td>
+                        </tr>
+                        <!-- Sunday -->
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                    Sunday
+                                </button>
+                            </td>
+                            <td class="px-6 py-4">Rest / Active Recovery</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Gentle Yoga / Stretching</div>
+                                <div>- Foam Rolling</div>
+                                <div>- Light Walks / Easy Swim</div>
+                            </td>
+                            <td class="px-6 py-4">15–30 min of easy movement</td>
+                            <td class="px-6 py-4 space-y-1">
+                                <div>- Encourage full rest if needed</div>
+                                <div>- Stay active with low-impact options</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Sample 7-Day Calorie-Deficit Meal Plan Table -->
+            <section class="mb-16">
+                <h2 class="text-2xl font-semibold text-header mb-6">2. Sample 7-Day Calorie-Deficit Meal Plan</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+                        <thead class="bg-tableHeader text-white">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Day</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Breakfast</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">AM Snack</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Lunch</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">PM Snack</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Dinner</th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm uppercase tracking-wider">Approx. Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Day 1 -->
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 1
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Oatmeal with ½ cup oats, 1 tbsp PB, ½ banana
+                                </td>
+                                <td class="px-6 py-4">
+                                    1 cup Greek yogurt with berries
+                                </td>
+                                <td class="px-6 py-4">
+                                    Grilled chicken (4–5 oz) on spinach salad + balsamic
+                                </td>
+                                <td class="px-6 py-4">
+                                    1 apple + 1 tbsp almond butter
+                                </td>
+                                <td class="px-6 py-4">
+                                    Salmon fillet (4–5 oz), 1 small sweet potato, 1 cup steamed broccoli
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1600 kcal</td>
+                            </tr>
+                            <!-- Day 2 -->
+                            <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 2
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    2 scrambled eggs with spinach + 1 slice whole-grain toast
+                                </td>
+                                <td class="px-6 py-4">
+                                    15 almonds + 1 small fruit
+                                </td>
+                                <td class="px-6 py-4">
+                                    Tuna salad wrap (whole-wheat tortilla, tuna in water with light mayo or Greek yogurt, lettuce, tomato)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Cottage cheese (½ cup) + pineapple chunks
+                                </td>
+                                <td class="px-6 py-4">
+                                    Lean turkey chili (1 cup) + ½ cup brown rice/quinoa + side salad
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1700 kcal</td>
+                            </tr>
+                            <!-- Day 3 -->
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 3
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Smoothie: spinach, ½ banana, ½ cup berries, 1 scoop protein, almond milk
+                                </td>
+                                <td class="px-6 py-4">
+                                    Rice cake + 1 tbsp peanut butter
+                                </td>
+                                <td class="px-6 py-4">
+                                    Grilled shrimp (4–5 oz) + veggies stir-fry + ½ cup brown rice
+                                </td>
+                                <td class="px-6 py-4">
+                                    Low-fat cheese stick + 1 small fruit
+                                </td>
+                                <td class="px-6 py-4">
+                                    Chicken (4–5 oz) + roasted veggies (zucchini, peppers) + 1 small roasted potato
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1600 kcal</td>
+                            </tr>
+                            <!-- Day 4 -->
+                            <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 4
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Greek yogurt (1 cup) + ½ cup mixed berries + drizzle honey
+                                </td>
+                                <td class="px-6 py-4">
+                                    2 rice cakes + hummus
+                                </td>
+                                <td class="px-6 py-4">
+                                    Turkey sandwich (whole-wheat bread, turkey slices, lettuce, tomato, mustard) + small side salad
+                                </td>
+                                <td class="px-6 py-4">
+                                    Protein shake or bar (~150–200 kcal)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Lean ground beef (4–5 oz) + 1 cup whole-grain pasta with marinara sauce + steamed veggies
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1700 kcal</td>
+                            </tr>
+                            <!-- Day 5 -->
+                            <tr class="border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 5
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Veggie omelet (2 eggs + egg whites, spinach, mushrooms) + 1 slice whole-grain toast
+                                </td>
+                                <td class="px-6 py-4">
+                                    1 small fruit (orange, apple, etc.)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Chicken or tofu (4–5 oz) + ½ cup quinoa + mixed green salad (olive oil & vinegar)
+                                </td>
+                                <td class="px-6 py-4">
+                                    1 small granola bar or 1 cup mixed berries
+                                </td>
+                                <td class="px-6 py-4">
+                                    White fish fillet (tilapia/cod), 1 cup roasted veggies (broccoli, carrots), 1 small sweet potato
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1600 kcal</td>
+                            </tr>
+                            <!-- Day 6 -->
+                            <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 6
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Overnight oats (½ cup oats, ½ cup milk, chia seeds, berries)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Hard-boiled egg + 1 small fruit
+                                </td>
+                                <td class="px-6 py-4">
+                                    Chicken burrito bowl: grilled chicken, black beans, lettuce, tomatoes, salsa, small portion of brown rice
+                                </td>
+                                <td class="px-6 py-4">
+                                    Smoothie (protein powder + spinach + ½ banana)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Lean steak (4–5 oz) or tofu steak + 1 cup roasted zucchini/squash + ½ cup brown rice/quinoa
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1700 kcal</td>
+                            </tr>
+                            <!-- Day 7 -->
+                            <tr class="hover:bg-gray-100">
+                                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    <button class="bg-buttonPrimary hover:bg-buttonPrimaryHover text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-buttonPrimaryHover focus:ring-opacity-50">
+                                        Day 7
+                                    </button>
+                                </td>
+                                <td class="px-6 py-4">
+                                    Whole-grain waffle (1–2) with fresh berries + light syrup
+                                </td>
+                                <td class="px-6 py-4">
+                                    1 small latte (skim milk) or green tea + 1 small piece of fruit
+                                </td>
+                                <td class="px-6 py-4">
+                                    Salmon or tuna salad (spinach, cucumber, tomatoes, olives, light dressing)
+                                </td>
+                                <td class="px-6 py-4">
+                                    Yogurt cup or low-fat cheese stick
+                                </td>
+                                <td class="px-6 py-4">
+                                    Baked chicken breast (4–5 oz) + ½ cup brown rice + roasted mixed veggies (bell peppers, onions)
+                                </td>
+                                <td class="px-6 py-4 font-semibold text-primary">~1500–1600 kcal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Additional Tips & Best Practices -->
+            <section class="mb-16">
+                <h2 class="text-2xl font-semibold text-header mb-6">Additional Tips & Best Practices</h2>
+                <ul class="list-disc list-inside space-y-4 text-lg">
+                    <li><strong>Portion Control:</strong> Adjust serving sizes to match your personal calorie needs (300–500 kcal below maintenance).</li>
+                    <li><strong>Hydration:</strong> Aim for 2–3 liters of water daily, more if you sweat heavily.</li>
+                    <li><strong>Consistency:</strong> Stick to the schedule as closely as possible, but be flexible when needed (e.g., swapping workout days).</li>
+                    <li><strong>Progressive Overload:</strong> Increase weights, duration, or intensity gradually to avoid plateaus.</li>
+                    <li><strong>Recovery:</strong> Prioritize sleep (7–9 hours) and active rest to allow muscle repair.</li>
+                </ul>
+            </section>
+
+            <!-- Disclaimer -->
+            <section>
+                <h2 class="text-xl font-semibold text-header mb-4">Disclaimer</h2>
+                <p class="text-gray-700 text-base">
+                    This plan is for <strong>general guidance</strong> only. Always consult with a healthcare professional before beginning any new diet or exercise program, especially if you have existing medical conditions or concerns. Adjust calorie targets, macros, and exercise intensity according to individual needs and progress.
+                </p>
+            </section>
+        </div>
+    </body>
+</html>
